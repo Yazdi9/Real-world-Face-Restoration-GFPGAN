@@ -8,10 +8,16 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 
 > [[Paper](https://arxiv.org/abs/2101.04061)] &emsp; [[Project Page](https://xinntao.github.io/projects/gfpgan)] &emsp; [Demo] <br>
 > [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/), [Honglun Zhang](https://scholar.google.com/citations?hl=en&user=KjQLROoAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
-> Applied Research Center (ARC), Tencent PCG
 
+### Output
 <p align="center">
-  <img src="https://xinntao.github.io/projects/GFPGAN_src/gfpgan_teaser.jpg">
+  
+  <img src="output/download (1).png">
+  <img src="output/download (5).png">
+  <img src="output/download (9).png">
+  <img src="output/download (6).png">
+  <img src="output/download (7).png">
+  <img src="output/download (8).png">
 </p>
 
 ---
@@ -86,7 +92,7 @@ Usage: python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 [o
   -ext                 Image extension. Options: auto | jpg | png, auto means using the same extension as inputs. Default: auto
 ```
 
-##  Model Zoo
+##  Model 
 
 | Version | Model Name  | Description |
 | :---: | :---:        |     :---:      |
@@ -96,8 +102,6 @@ Usage: python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 [o
 
 The comparisons are in [Comparisons.md](Comparisons.md).
 
-
-You can find **more models (such as the discriminators)** here: [[Google Drive](https://drive.google.com/drive/folders/17rLiFzcUMoQuhLnptDsKolegHWwJOnHu?usp=sharing)] 
 
 ## Training
 
