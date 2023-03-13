@@ -6,7 +6,7 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 
 ### GFP-GAN: Towards Real-World Blind Face Restoration with Generative Facial Prior
 
-> [[Paper](https://arxiv.org/abs/2101.04061)] &emsp; [[Project Page](https://xinntao.github.io/projects/gfpgan)] &emsp; [Demo] <br>
+> [[Paper](https://arxiv.org/abs/2101.04061)]  <br>
 > [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/), [Honglun Zhang](https://scholar.google.com/citations?hl=en&user=KjQLROoAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
 
 ### Output
@@ -24,20 +24,16 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 
 ##  Dependencies and Installation
 
-- Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
-- [PyTorch >= 1.7](https://pytorch.org/)
+- Python >= 3.7 
+- [PyTorch >= 1.7]
 - Option: NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
 - Option: Linux
 
 ### Installation
-
-We now provide a *clean* version of GFPGAN, which does not require customized CUDA extensions. <br>
-If you want to use the original model in our paper, please see [PaperModel.md](PaperModel.md) for installation.
-
 1. Clone repo
 
     ```bash
-    git clone https://github.com/TencentARC/GFPGAN.git
+    git clone https://github.com/saba99/Real-world-Face-Restoration-GFPGAN.git
     cd GFPGAN
     ```
 
