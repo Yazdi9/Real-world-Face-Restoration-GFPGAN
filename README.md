@@ -25,7 +25,7 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 ##  Dependencies and Installation
 
 - Python >= 3.7 
-- [PyTorch >= 1.7]
+- PyTorch >= 1.7
 
 
 ### Installation
@@ -33,7 +33,7 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 
     ```bash
     git clone https://github.com/saba99/Real-world-Face-Restoration-GFPGAN.git
-    cd GFPGAN
+    cd Real-world-Face-Restoration-GFPGAN
     ```
 
 1. Install dependent packages
