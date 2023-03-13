@@ -4,7 +4,7 @@ GFPGAN aims at developing a **Practical Algorithm for Real-world Face Restoratio
 It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g.*, StyleGAN2) for blind face restoration.
 
 
-### :book: GFP-GAN: Towards Real-World Blind Face Restoration with Generative Facial Prior
+### GFP-GAN: Towards Real-World Blind Face Restoration with Generative Facial Prior
 
 > [[Paper](https://arxiv.org/abs/2101.04061)] &emsp; [[Project Page](https://xinntao.github.io/projects/gfpgan)] &emsp; [Demo] <br>
 > [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/), [Honglun Zhang](https://scholar.google.com/citations?hl=en&user=KjQLROoAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
@@ -88,7 +88,7 @@ Usage: python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 [o
 
 If you want to use the original model in our paper, please see [PaperModel.md](PaperModel.md) for installation and inference.
 
-## :european_castle: Model Zoo
+##  Model Zoo
 
 | Version | Model Name  | Description |
 | :---: | :---:        |     :---:      |
@@ -105,17 +105,13 @@ Note that V1.3 is not always better than V1.2. You may need to select different 
 |V1.3 |  ✓ natural outputs<br> ✓better results on very low-quality inputs <br> ✓ work on relatively high-quality inputs <br>✓ can have repeated (twice) restorations | ✗ not very sharp <br> ✗ have a slight change on identity |
 |V1.2 |  ✓ sharper output <br> ✓ with beauty makeup | ✗ some outputs are unnatural |
 
-You can find **more models (such as the discriminators)** here: [[Google Drive](https://drive.google.com/drive/folders/17rLiFzcUMoQuhLnptDsKolegHWwJOnHu?usp=sharing)], OR [[Tencent Cloud 腾讯微云](https://share.weiyun.com/ShYoCCoc)]
+You can find **more models (such as the discriminators)** here: [[Google Drive](https://drive.google.com/drive/folders/17rLiFzcUMoQuhLnptDsKolegHWwJOnHu?usp=sharing)] 
 
-## :computer: Training
+## Training
 
 We provide the training codes for GFPGAN (used in our paper). <br>
 You could improve it according to your own needs.
 
-**Tips**
-
-1. More high quality faces can improve the restoration quality.
-2. You may need to perform some pre-processing, such as beauty makeup.
 
 **Procedures**
 
