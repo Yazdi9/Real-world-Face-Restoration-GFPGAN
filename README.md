@@ -86,8 +86,6 @@ Usage: python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 [o
   -ext                 Image extension. Options: auto | jpg | png, auto means using the same extension as inputs. Default: auto
 ```
 
-If you want to use the original model in our paper, please see [PaperModel.md](PaperModel.md) for installation and inference.
-
 ##  Model Zoo
 
 | Version | Model Name  | Description |
