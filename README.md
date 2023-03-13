@@ -98,12 +98,6 @@ If you want to use the original model in our paper, please see [PaperModel.md](P
 
 The comparisons are in [Comparisons.md](Comparisons.md).
 
-Note that V1.3 is not always better than V1.2. You may need to select different models based on your purpose and inputs.
-
-| Version | Strengths  | Weaknesses |
-| :---: | :---:        |     :---:      |
-|V1.3 |  ✓ natural outputs<br> ✓better results on very low-quality inputs <br> ✓ work on relatively high-quality inputs <br>✓ can have repeated (twice) restorations | ✗ not very sharp <br> ✗ have a slight change on identity |
-|V1.2 |  ✓ sharper output <br> ✓ with beauty makeup | ✗ some outputs are unnatural |
 
 You can find **more models (such as the discriminators)** here: [[Google Drive](https://drive.google.com/drive/folders/17rLiFzcUMoQuhLnptDsKolegHWwJOnHu?usp=sharing)] 
 
