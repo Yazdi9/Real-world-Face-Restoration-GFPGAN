@@ -26,8 +26,7 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 
 - Python >= 3.7 
 - [PyTorch >= 1.7]
-- Option: NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
-- Option: Linux
+
 
 ### Installation
 1. Clone repo
@@ -103,8 +102,6 @@ You could improve it according to your own needs.
 
 
 **Procedures**
-
-(You can try a simple version ( `options/train_gfpgan_v1_simple.yml`) that does not require face component landmarks.)
 
 1. Dataset preparation: [FFHQ](https://github.com/NVlabs/ffhq-dataset)
 
