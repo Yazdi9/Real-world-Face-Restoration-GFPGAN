@@ -1,10 +1,5 @@
 
-
-GFPGAN aims at developing a **Practical Algorithm for Real-world Face Restoration**.<br>
-It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g.*, StyleGAN2) for blind face restoration.
-
-
-### GFP-GAN: Towards Real-World Blind Face Restoration with Generative Facial Prior
+### GFP-GAN: Blind Face Restoration with Generative Facial Prior
 
 > [[Paper](https://arxiv.org/abs/2101.04061)]  <br>
 > [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/), [Honglun Zhang](https://scholar.google.com/citations?hl=en&user=KjQLROoAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
@@ -21,12 +16,6 @@ It leverages rich and diverse priors encapsulated in a pretrained face GAN (*e.g
 </p>
 
 ---
-
-##  Dependencies and Installation
-
-- Python >= 3.7 
-- PyTorch >= 1.7
-
 
 ### Installation
 1. Clone repo
@@ -69,22 +58,6 @@ wget https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pt
 
 ```bash
 python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2
-```
-
-```console
-Usage: python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 [options]...
-
-  -h                   show this help
-  -i input             Input image or folder. Default: inputs/whole_imgs
-  -o output            Output folder. Default: results
-  -v version           GFPGAN model version. Option: 1 | 1.2 | 1.3. Default: 1.3
-  -s upscale           The final upsampling scale of the image. Default: 2
-  -bg_upsampler        background upsampler. Default: realesrgan
-  -bg_tile             Tile size for background sampler, 0 for no tile during testing. Default: 400
-  -suffix              Suffix of the restored faces
-  -only_center_face    Only restore the center face
-  -aligned             Input are aligned faces
-  -ext                 Image extension. Options: auto | jpg | png, auto means using the same extension as inputs. Default: auto
 ```
 
 ##  Model 
