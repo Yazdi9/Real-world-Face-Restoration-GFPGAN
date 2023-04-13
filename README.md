@@ -1,9 +1,6 @@
 
 ### GFP-GAN: Blind Face Restoration with Generative Facial Prior
 
-> [[Paper](https://arxiv.org/abs/2101.04061)]  <br>
-> [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/), [Honglun Zhang](https://scholar.google.com/citations?hl=en&user=KjQLROoAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
-
 ### Output
 <p align="center">
   
